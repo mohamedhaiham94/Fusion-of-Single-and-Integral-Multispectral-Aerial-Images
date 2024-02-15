@@ -29,5 +29,4 @@ def test_fusion(data):
 
 if __name__=="__main__":
   data = ['4']
-  # data = ['2']
   test_fusion(data)

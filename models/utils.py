@@ -173,8 +173,6 @@ def color_space_conversion(thermal):
     cmap = ['autumn', 'jet']
     fig = plt.figure(figsize=(15, 10)) 
     i = 1
-    cv2.imwrite('mona.png', thermal) 
-
     for idx, color_map in enumerate(cmap):
         print(color_map)
         fig.add_subplot(3, 5, idx+1) 

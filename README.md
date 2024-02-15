@@ -1,10 +1,20 @@
 Source Code and Data: Fusion of Single and Integral Multispectral Aerial Images
 ====================================================================
 
-This is a pytorch implementation of Youssef, M. and Bimber, O., 2023. Fusion of Single and Integral Multispectral Aerial Images. arXiv preprint arXiv:2311.17515. (https://arxiv.org/abs/2311.17515)
+This is a pytorch implementation of Youssef, M. and Bimber, O., 2023. Fusion of Single and Integral Multispectral Aerial Images. Remote Sens. 2024, 16, 673. (https://doi.org/10.3390/rs16040673)
 
 **Abstract:**
-We present a novel hybrid (model- and learning-based) architecture for fusing the most significant features from conventional aerial images and integral aerial images that result from synthetic aperture sensing for removing occlusion caused by dense vegetation. It combines the environment’s spatial references with features of unoccuded targets. Our method out-beats the state-of-the-art, does not require manually tuned parameters, can be extended to an arbitrary number and combinations of spectral channels, and is reconfigurable to address different use-cases. 
+An adequate fusion of the most significant salient information from multiple input channels
+is essential for many aerial imaging tasks. While multispectral recordings reveal features in various
+spectral ranges, synthetic aperture sensing makes occluded features visible. We present a first and
+hybrid (model- and learning-based) architecture for fusing the most significant features from conventional aerial images with the ones from integral aerial images that are the result of synthetic aperture
+sensing for removing occlusion. It combines the environment’s spatial references with features of
+unoccluded targets that would normally be hidden by dense vegetation. Our method outperforms
+state-of-the-art two-channel and multi-channel fusion approaches visually and quantitatively in
+common metrics, such as mutual information, visual information fidelity, and peak signal-to-noise
+ratio. The proposed model does not require manually tuned parameters, can be extended to an
+arbitrary number and arbitrary combinations of spectral channels, and is reconfigurable for addressing different use cases. We demonstrate examples for search and rescue, wildfire detection, and
+wildlife observation.
 
 **Authors:** Mohamed Youssef and Oliver Bimber
 
